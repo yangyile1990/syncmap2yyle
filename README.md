@@ -8,7 +8,9 @@ Sync map generics
 
 Sync map 范型版
 
-100%实现sync.Map的方法因此可以直接替换
+This toolkit provides a comprehensive encapsulation of the methods in sync.Map, ensuring that both the parameters and return values remain unchanged. As a result, these methods can be seamlessly substituted and utilized. Moreover, the presence of generics in this toolkit eliminates the need for any conversions to interface{}, enhancing its efficiency and convenience.
+
+该工具包100%封装sync.Map的方法且方法的参数和返回值都不变，因此可以直接替换使用，但由于具有泛型而能避免interface{}的转换
 
 ```
 go get github.com/yangyile1990/syncmap2yyle
