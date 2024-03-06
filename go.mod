@@ -1,8 +1,8 @@
-module github.com/yangyile1990/syncmap2yyle
+module github.com/yyle88/syncmap
 
 go 1.22.0
 
-require github.com/stretchr/testify v1.8.4
+require github.com/stretchr/testify v1.9.0
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
