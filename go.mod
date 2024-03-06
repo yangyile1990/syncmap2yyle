@@ -1,4 +1,4 @@
-module github.com/yyle88/syncmap
+module github.com/yangyile1990/syncmap2yyle
 
 go 1.22.0
 
