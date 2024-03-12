@@ -12,6 +12,16 @@ This toolkit provides a comprehensive encapsulation of the methods in sync.Map, 
 
 该工具包100%封装sync.Map的方法且方法的参数和返回值都不变，因此可以直接替换使用，但由于具有泛型而能避免interface{}的转换
 
+Due to the lengthy name of this account and the cumbersome package name, the code has been migrated to a new location. Going forward, the focus will be on maintaining the new package:
+
+由于该github的名字冗长且该工具包名也冗长，因此已经将代码转移到新的地方，以后优先维护新包：
+```
+go get github.com/yyle88/syncmap
+```
+Despite the migration of the code to a new repository, it's worth noting that the old repository is still functional and available for use. While the focus will be on maintaining the new package, the option to continue using the old repository remains open:
+
+
+当然旧的依然可以使用：
 ```
 go get github.com/yangyile1990/syncmap2yyle
 ```
@@ -80,3 +90,4 @@ func main() {
 	})
 }
 ```
+
